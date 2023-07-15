@@ -1,0 +1,37 @@
+/* Breakpoint <=576 */
+@media screen and (max-width: 576px) {
+   .all-members-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: inherit;
+      grid-gap: 3rem;
+   }
+   .top-space {
+      margin-top: 3rem;
+   }
+   .single-memeber-wrapper:nth-child(4) {
+      margin-top: 3rem;
+   }
+   .single-memeber-wrapper:nth-child(5) {
+      margin-top: 0;
+   }
+   .single-memeber-wrapper:nth-child(6) {
+      margin-top: 3rem;
+   }
+   header {
+      flex-direction: column;
+      text-align: center;
+   }
+   header div:nth-child(2) {
+      width: 88%;
+   }
+}
+
+/* Breakpoint <=768 */
+@media screen and (max-width: 768px) {
+   .all-members-wrapper {
+      grid-gap: 3rem;
+   }
+   .top-space {
+      margin-top: 3rem;
+   }
+}
